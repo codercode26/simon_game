@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(10, 49, 75, 0.973);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+div{
+    position:absolute;
+    left: 400px;
+    top: 100px;
+    
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: rgb(221, 44, 31);
+}
+#yellow{
+    background-color: rgb(238, 209, 46);
+}
+#blue{
+    background-color: rgb(18, 48, 218)
+}
+
+
+
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
